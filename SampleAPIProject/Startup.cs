@@ -53,7 +53,7 @@ namespace SampleAPIProject
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Foo API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Sample API V1");
                 c.RoutePrefix = String.Empty;
             });
 
