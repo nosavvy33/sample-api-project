@@ -77,7 +77,7 @@ namespace SampleAPIProject
                 {
                     Title = $"Sample {groupName}",
                     Version = groupName,
-                    Description = "Sample API",
+                    Description = "Sample API deployed from MAIN branch - this was CI CD through Azure DevOps Starter and will be rewritten if deployment is run from Jenkins. To get back at this deployment, please change API version and commit change to MAIN branch so that Azure CI CD overruns Jenkins deployment",
                     Contact = new OpenApiContact
                     {
                         Name = "Sample API deployed from MAIN branch - this was CI CD through Azure DevOps Starter and will be rewritten if deployment is run from Jenkins. To get back at this deployment, please change API version and commit change to MAIN branch so that Azure CI CD overruns Jenkins deployment",
