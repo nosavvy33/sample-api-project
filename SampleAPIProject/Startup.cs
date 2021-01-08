@@ -80,7 +80,7 @@ namespace SampleAPIProject
                     Description = "Sample API",
                     Contact = new OpenApiContact
                     {
-                        Name = "Sample API",
+                        Name = "Sample API deployed from MAIN branch - this was CI CD through Azure DevOps Starter and will be rewritten if deployment is run from Jenkins. To get back at this deployment, please change API version and commit change to MAIN branch so that Azure CI CD overruns Jenkins deployment",
                         Email = string.Empty,
                         //Url = new Uri("https://foo.com/"),
                     }
